@@ -1,7 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+nav {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 nav li {
     display: inline-block;
     padding: 10px 10px;
     margin: 0 20px 20px 20px;
+    text-align: center;
 }
 
 .title {
@@ -10,8 +26,18 @@ nav li {
     font-family:'Courier New', Courier, monospace;
 }
 
-.css-section {
-    text-align: center;
+
+table {
+    border: 2px solid darkorchid;
+    width: 100%;
+    margin: 0 auto;
 }
 
+thead {
+    background-color: orange;
+}
+
+td {
+    border-top: 1px solid darkorchid;
+}
 
