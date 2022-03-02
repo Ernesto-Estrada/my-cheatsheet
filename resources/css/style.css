@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: azure;
+    background-color: rgb(242, 255, 240);
 }
 
 nav {
@@ -16,7 +16,7 @@ nav {
 nav li {
     display: inline-block;
     padding: 10px 10px;
-    margin: 0 20px 20px 20px;
+    margin: 0 20px 10px 20px;
     text-align: center;
 }
 
@@ -24,20 +24,45 @@ nav li {
     text-align: center;
     font-size: 100px;
     font-family:'Courier New', Courier, monospace;
+    margin: 30px 0;
 }
 
+.module {
+    margin: 20px;
+}
+
+.module-descrip {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
 
 table {
-    border: 2px solid darkorchid;
-    width: 100%;
-    margin: 0 auto;
+    border: 2px solid rgb(94, 204, 50);
+    width: 1000;
 }
 
 thead {
-    background-color: orange;
+    background-color: rgb(0, 255, 0);
 }
 
 td {
-    border-top: 1px solid darkorchid;
+    border-top: 1px solid rgb(204, 50, 71);
+}
+
+.theading {
+    font-weight: 800;
+}
+
+.property {
+    width: 200px;
+    text-align: center;
+    font-style: italic;
 }
 
