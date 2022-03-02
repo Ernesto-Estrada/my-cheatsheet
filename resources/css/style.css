@@ -1,0 +1,17 @@
+nav li {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0 20px 20px 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 100px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.css-section {
+    text-align: center;
+}
+
+
